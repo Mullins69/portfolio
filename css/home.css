@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/home.png);
+    background-size: cover;
+    align-content: center;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.head {
+    font-family: 'Oswald', sans-serif;
+}
+.para {
+    font-size: large;
+    color: rgb(199, 50, 50);
+}
+.fblock {
+    text-align: center;
+    
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+}
+.iconn {
+    text-align: center;
+}

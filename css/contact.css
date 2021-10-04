@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none !important;
+    color: black;
+    font-weight: bolder;
+}
+.navbar {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(109, 120, 122);
+    opacity: 0.4;
+    font-weight: bolder;
+    font-size: medium;
+}
+#contactbg {
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding-top: 65px;
+}
+#contact-head{
+    padding-bottom: 50px;
+}
+#Form {
+    text-align: center;
+    background: rgba( 82, 82, 82, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 3px solid rgba( 255, 255, 255, 0.18 );
+    padding-left: 40px;
+    padding-right: 40px;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 100px;
+    padding-top: 200px; */
+}
+input:hover {
+    opacity: 0.7;
+}
+textarea:hover{
+    opacity: 0.7;
+}
+::placeholder{
+    color: black;
+}
+textarea{
+    background-color: slategray;
+    opacity: 0.4;
+    border: solid;
+}
+.inputblock {
+    background-color: slategrey;
+    opacity: 0.4;
+    border: solid;
+}
+.submitbutton {
+    background:#486e8d;
+    color:#fff;
+    border:1px solid#eee;
+    border-radius:20px;
+    box-shadow:2px 2px 2px#eee;
+    text-shadow:none;
+    width: 40%;
+    height: 10%;
+}
+.submitbutton:hover {
+    background:#016ABC;
+    color:#fff;
+    border:1px solid#eee;
+    border-radius:20px;
+    box-shadow:2px 2px 2px#eee;
+    text-shadow:none;
+}
+.resetbutton {
+    background:#486e8d;
+    color:#fff;
+    border:1px solid#eee;
+    border-radius:20px;
+    box-shadow:2px 2px 2px#eee;
+    text-shadow:none;
+    width: 40%;
+    height: 10%;
+}
+.resetbutton:hover {
+    background:#016ABC;
+    color:#fff;
+    border:1px solid#eee;
+    border-radius:20px;
+    box-shadow:2px 2px 2px#eee;
+    text-shadow:none;
+}
