@@ -8,30 +8,23 @@ a {
     color: black;
     font-weight: bolder;
 }
-.navbar {
-    position: fixed;
-    text-align: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: rgb(109, 120, 122);
-    opacity: 0.4;
-    font-weight: bolder;
-    font-size: medium;
+.inputblock{
+    width: 57%;
 }
 #contactbg {
-    background-image: url("../img/contact.jpg");
+    background-image: url("../img/home.png");
     background-size: cover;
     background-position: center;
     display: grid;
-    place-items: center;
+    /* place-items: center;
     min-height: 100vh;
-    padding-top: 65px;
+    padding-top: 65px; */
 }
+
 #contact-head{
     padding-bottom: 50px;
 }
-#Form {
+.form {
     text-align: center;
     background: rgba( 82, 82, 82, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -39,8 +32,9 @@ a {
     -webkit-backdrop-filter: blur( 4.5px );
     border-radius: 10px;
     border: 3px solid rgba( 255, 255, 255, 0.18 );
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
     /* display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -49,7 +43,7 @@ a {
     flex: 0 1 100px;
     padding-top: 200px; */
 }
-input:hover {
+    input:hover {
     opacity: 0.7;
 }
 textarea:hover{
