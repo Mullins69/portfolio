@@ -7,11 +7,11 @@
 footer {
     left: 0;
     bottom: 0;
+    max-height: 50px;
     width: 100%;
     background-color: rgba(112, 112, 112, 0.1);
-    color: whitesmoke;
+    color: rgb(180, 127, 12);
     position: fixed;
-    opacity: 90%;
 }
 
 .footer-container {
