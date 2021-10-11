@@ -17,18 +17,19 @@ body {
     -webkit-box-shadow: 5px 11px 30px 9px #000000; 
     box-shadow: 5px 11px 30px 9px #000000;
 }
-.head {
-    font-family: 'Oswald', sans-serif;
-    color: rgb(180, 127, 12);
+.hello {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(180, 127, 12);
 }
 .para {
-    font-size: large;
-    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    color: rgb(180, 127, 12);
+
 }
 .fblock {
     text-align: center;
-    
-}
+    }
 
 .fa-linkedin {
     background: #007bb5;
@@ -100,5 +101,36 @@ body {
     }
     60% {
       transform: translateY(-15px);
+    }
+  }
+
+  .wrapper {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+  
+  .typing {
+    width: 7ch ;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: white;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
     }
   }

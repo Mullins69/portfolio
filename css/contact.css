@@ -8,9 +8,7 @@ a {
     color: black;
     font-weight: bolder;
 }
-.inputblock{
-    width: 57%;
-}
+
 #contactbg {
     background-image: url("../img/background2.jpg");
     background-size: cover;
@@ -56,23 +54,16 @@ textarea{
     background-color: slategray;
     opacity: 0.4;
     border: solid;
+    width: 300px;
 }
 .inputblock {
     background-color: slategrey;
     opacity: 0.4;
     border: solid;
+    width: 300px;
 }
-.submitbutton {
-    background:#486e8d;
-    color:#fff;
-    border:1px solid#eee;
-    border-radius:20px;
-    box-shadow:2px 2px 2px#eee;
-    text-shadow:none;
-    width: 40%;
-    height: 10%;
-}
-.submitbutton:hover {
+
+.buttons:hover {
     background:#016ABC;
     color:#fff;
     border:1px solid#eee;
@@ -80,21 +71,13 @@ textarea{
     box-shadow:2px 2px 2px#eee;
     text-shadow:none;
 }
-.resetbutton {
+.buttons {
     background:#486e8d;
     color:#fff;
     border:1px solid#eee;
     border-radius:20px;
     box-shadow:2px 2px 2px#eee;
     text-shadow:none;
-    width: 40%;
-    height: 10%;
-}
-.resetbutton:hover {
-    background:#016ABC;
-    color:#fff;
-    border:1px solid#eee;
-    border-radius:20px;
-    box-shadow:2px 2px 2px#eee;
-    text-shadow:none;
+    width: 20%;
+    height: 20%;
 }
