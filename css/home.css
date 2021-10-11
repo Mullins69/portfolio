@@ -19,10 +19,11 @@ body {
 }
 .head {
     font-family: 'Oswald', sans-serif;
+    color: rgb(180, 127, 12);
 }
 .para {
     font-size: large;
-    color: rgb(180, 127, 12);
+    color: rgb(255, 255, 255);
 }
 .fblock {
     text-align: center;

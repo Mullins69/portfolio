@@ -15,6 +15,58 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  transition: all 1s;
+}
+#topToBottom {
+  animation: topToBottom ease 2s;
+  -webkit-animation: topToBottom ease 2s;
+  -moz-animation: topToBottom ease 2s;
+  -o-animation: topToBottom ease 2s;
+  -ms-animation: topToBottom ease 2s;
+}
+@keyframes topToBottom {
+  0% {
+    margin-top: 23%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+
+@-moz-keyframes topToBottom {
+  0% {
+    margin-top: 23%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+
+@-webkit-keyframes topToBottom {
+  0% {
+    margin-top: 23%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+
+@-o-keyframes topToBottom {
+  0% {
+    margin-top: 23%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+
+@-ms-keyframes topToBottom {
+  0% {
+    margin-top: 23%;
+  }
+  100% {
+    margin-top: 0%;
+  }
 }
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -79,3 +131,5 @@ h1 {
 .zoom:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+

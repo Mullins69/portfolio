@@ -7,31 +7,57 @@ body {
     background-image: url(../img/background2.jpg);
     background-size: cover;
     /* align-content: center; */
-}
-table {
-    float: right;
-    margin-right: 10%;
-    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.para1 {
-    width: 30%;
-    border: 10px cadetblue;
-    border-style: solid;
-    border-radius: 2%;
-    margin-left: 50px;
+#left-to-right {
+    animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+
+.aboutme{
+    text-align: center;
+    color: white;
 }
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.hello {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(180, 127, 12);
+}
+.head2 {
+    text-align: center;
+    color: rgb(180, 127, 12);
+    font-size: xx-large;
+}
+table{
+    color: rgb(180, 127, 12);
+    font-size: x-large;
+    background-color: rgb(41, 40, 40);
+    border-radius: 3%;
+}
+.picofme {
     border-radius: 50%;
 }
-.head {
-    text-align: center;
-    color: grey;
-}
-.word {
-    font-weight: bolder;
-    font-style: italic;
+.para1 {
+    background-color: rgb(41, 40, 40);
+    width: 40%;
+    height: 250px;
+    font-size: x-large;
+    color: rgb(180, 127, 12);
+    border-radius: 2%;
 }
