@@ -8,6 +8,10 @@ body {
     background-size: cover;
     align-content: center;
 }
+.fa:hover {
+  opacity: 0.7;
+}
+
 .img{
     display: block;
     margin-left: auto;
@@ -120,7 +124,7 @@ body {
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   @keyframes typing {
@@ -131,6 +135,7 @@ body {
       
   @keyframes blink {
     50% {
-      border-color: transparent
+      border-color: transparent;
+      color: rgb(194, 139, 57);
     }
   }
